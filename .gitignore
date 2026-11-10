@@ -1,0 +1,51 @@
+# Local development environments
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dataset
+dataset/
+datasets/
+*.wav
+*.mp3
+*.flac
+
+# Training artifacts
+models/
+outputs/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.joblib
+*.pkl
+
+# Logs and temporary files
+*.log
+*.tmp
+torch_import_log.txt
+project_structure.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+# Internal cleanup and audit reports
+final_results/audit/
+final_results/cleanup_report*.json
+
+# Duplicate confusion matrix copies
+final_results/confusion_matrices/automated__*.png
+final_results/confusion_matrices/graphs__*.png
+final_results/comparison/all_models_comparison.csv
+
